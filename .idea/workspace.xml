@@ -4,7 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cb328ade-abf2-4797-8021-df2011d26478" name="Changes" comment="第1章 仮実装">
+    <list default="true" id="cb328ade-abf2-4797-8021-df2011d26478" name="Changes" comment="第2章 明白な実装">
+      <change beforePath="$PROJECT_DIR$/wycash/doc/TODO.md" beforeDir="false" afterPath="$PROJECT_DIR$/wycash/doc/TODO.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wycash/src/main/java/money/Dollar.java" beforeDir="false" afterPath="$PROJECT_DIR$/wycash/src/main/java/money/Dollar.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wycash/src/test/java/money/MoneyTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/wycash/src/test/java/money/MoneyTest.java" afterDir="false" />
     </list>
@@ -75,7 +76,7 @@
       <recent name="money" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.MoneyTest.testMultiplication">
+  <component name="RunManager" selected="Gradle.MoneyTest.testEquality">
     <configuration name="MoneyTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -90,6 +91,29 @@
             <option value=":test" />
             <option value="--tests" />
             <option value="&quot;money.MoneyTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="MoneyTest.testEquality" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/wycash" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;money.MoneyTest.testEquality&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -160,32 +184,13 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="wycach" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$/wycach" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list />
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.MoneyTest.testMultiplication" />
+        <item itemvalue="Gradle.MoneyTest.testEquality" />
         <item itemvalue="Gradle.MoneyTest" />
+        <item itemvalue="Gradle.MoneyTest.testMultiplication" />
         <item itemvalue="Gradle./Users/i/ghq/github.com/ita-jp/tdd-by-example-202212/wycash/build.gradle (1)" />
         <item itemvalue="Gradle./Users/i/ghq/github.com/ita-jp/tdd-by-example-202212/wycash/build.gradle" />
-        <item itemvalue="Gradle.wycach" />
       </list>
     </recent_temporary>
   </component>
@@ -198,7 +203,7 @@
       <option name="presentableId" value="Default" />
       <updated>1671109035228</updated>
       <workItem from="1671109036483" duration="814000" />
-      <workItem from="1671109868471" duration="1606000" />
+      <workItem from="1671109868471" duration="1916000" />
     </task>
     <task id="LOCAL-00001" summary="create module by intellij">
       <created>1671110000853</created>
@@ -235,7 +240,21 @@
       <option name="project" value="LOCAL" />
       <updated>1671111113817</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="第2章 明白な実装">
+      <created>1671111496948</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1671111496948</updated>
+    </task>
+    <task id="LOCAL-00007" summary="第2章 明白な実装">
+      <created>1671111608230</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1671111608230</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -245,6 +264,7 @@
     <MESSAGE value="create module by intellij" />
     <MESSAGE value="add assertj" />
     <MESSAGE value="第1章 仮実装" />
-    <option name="LAST_COMMIT_MESSAGE" value="第1章 仮実装" />
+    <MESSAGE value="第2章 明白な実装" />
+    <option name="LAST_COMMIT_MESSAGE" value="第2章 明白な実装" />
   </component>
 </project>
