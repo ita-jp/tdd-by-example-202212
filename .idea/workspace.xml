@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cb328ade-abf2-4797-8021-df2011d26478" name="Changes" comment="第14章 学習用テストと回帰テスト">
-      <change beforePath="$PROJECT_DIR$/wycash/doc/TODO.md" beforeDir="false" afterPath="$PROJECT_DIR$/wycash/doc/TODO.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wycash/src/main/java/money/Expression.java" beforeDir="false" afterPath="$PROJECT_DIR$/wycash/src/main/java/money/Expression.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wycash/src/main/java/money/Money.java" beforeDir="false" afterPath="$PROJECT_DIR$/wycash/src/main/java/money/Money.java" afterDir="false" />
+    <list default="true" id="cb328ade-abf2-4797-8021-df2011d26478" name="Changes" comment="第15章 テスト任せとコンパイラ任せ">
       <change beforePath="$PROJECT_DIR$/wycash/src/main/java/money/Sum.java" beforeDir="false" afterPath="$PROJECT_DIR$/wycash/src/main/java/money/Sum.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wycash/src/test/java/money/MoneyTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/wycash/src/test/java/money/MoneyTest.java" afterDir="false" />
     </list>
@@ -181,7 +178,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="MoneyTest.testReduceMoneyDifferentCurrency" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="MoneyTest.testSumPlusMoney" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$/wycash" />
@@ -194,7 +191,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;money.MoneyTest.testReduceMoneyDifferentCurrency&quot;" />
+            <option value="&quot;money.MoneyTest.testSumPlusMoney&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -207,10 +204,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Gradle.MoneyTest" />
+        <item itemvalue="Gradle.MoneyTest.testSumPlusMoney" />
         <item itemvalue="Gradle.MoneyTest.testIdentityRate" />
         <item itemvalue="Gradle.MoneyTest.testMixedAddition" />
         <item itemvalue="Gradle.MoneyTest.testArrayEquals" />
-        <item itemvalue="Gradle.MoneyTest.testReduceMoneyDifferentCurrency" />
       </list>
     </recent_temporary>
   </component>
@@ -223,7 +220,7 @@
       <option name="presentableId" value="Default" />
       <updated>1671109035228</updated>
       <workItem from="1671109036483" duration="814000" />
-      <workItem from="1671109868471" duration="9684000" />
+      <workItem from="1671109868471" duration="9997000" />
     </task>
     <task id="LOCAL-00001" summary="create module by intellij">
       <created>1671110000853</created>
@@ -358,7 +355,14 @@
       <option name="project" value="LOCAL" />
       <updated>1671118878090</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="第15章 テスト任せとコンパイラ任せ">
+      <created>1671119591224</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1671119591224</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -392,6 +396,7 @@
     <MESSAGE value="第12章 設計のメタファー" />
     <MESSAGE value="第13章 実装を導くテスト" />
     <MESSAGE value="第14章 学習用テストと回帰テスト" />
-    <option name="LAST_COMMIT_MESSAGE" value="第14章 学習用テストと回帰テスト" />
+    <MESSAGE value="第15章 テスト任せとコンパイラ任せ" />
+    <option name="LAST_COMMIT_MESSAGE" value="第15章 テスト任せとコンパイラ任せ" />
   </component>
 </project>

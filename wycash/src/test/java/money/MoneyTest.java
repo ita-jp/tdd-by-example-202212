@@ -83,4 +83,15 @@ public class MoneyTest {
         var result = bank.reduce(fiveBucks.plus(tenFrancs), "USD");
         assertThat(result).isEqualTo(Money.dollar(10));
     }
+
+    @Test
+    public void testSumPlusMoney() {
+        Expression fiveBucks = Money.dollar(5);
+        Expression tenFrancs = Money.franc(10);
+        var bank = new Bank();
+        bank.addRate("CHF", "USD", 2);
+        Expression sum = new Sum(fiveBucks, tenFrancs).plus(fiveBucks);
+        var result = bank.reduce(sum, "USD");
+        assertThat(result).isEqualTo(Money.dollar(15));
+    }
 }
