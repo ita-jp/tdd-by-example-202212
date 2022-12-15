@@ -20,6 +20,7 @@ public class MoneyTest {
         assertThat(new Dollar(5)).isNotEqualTo(new Dollar(6));
         assertThat(new Franc(5)).isEqualTo(new Franc(5));
         assertThat(new Franc(5)).isNotEqualTo(new Franc(6));
+        assertThat(new Franc(5)).isNotEqualTo(new Dollar(5));
     }
 
     @Test
