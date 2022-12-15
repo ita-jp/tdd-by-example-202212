@@ -10,11 +10,11 @@
 - [ ] null との等価性比較
 - [ ] 他のオブジェクトとの等価性比較
 - [x] 5 CHF * 2 = 10 CHF
-- [ ] Dollar と Franc の重複
+- [x] Dollar と Franc の重複
 - [x] equals の一般化
 - [x] times の一般化
 - [x] Franc と Dollar を比較する
 - [x] 通貨の概念
     - `getClass().equals(money.getClass())` をやめたい
     - プログラム的比較ではななく、ドメイン的な比較をしたい。currency?
-- [ ] testFrancMultiplication を削除する?
+- [x] testFrancMultiplication を削除する?
