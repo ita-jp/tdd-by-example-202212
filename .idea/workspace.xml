@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cb328ade-abf2-4797-8021-df2011d26478" name="Changes" comment="第2章 明白な実装">
+    <list default="true" id="cb328ade-abf2-4797-8021-df2011d26478" name="Changes" comment="第3章 三角測量">
       <change beforePath="$PROJECT_DIR$/wycash/doc/TODO.md" beforeDir="false" afterPath="$PROJECT_DIR$/wycash/doc/TODO.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wycash/src/main/java/money/Dollar.java" beforeDir="false" afterPath="$PROJECT_DIR$/wycash/src/main/java/money/Dollar.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wycash/src/test/java/money/MoneyTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/wycash/src/test/java/money/MoneyTest.java" afterDir="false" />
@@ -76,7 +76,7 @@
       <recent name="money" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.MoneyTest.testEquality">
+  <component name="RunManager" selected="Gradle.MoneyTest">
     <configuration name="MoneyTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -186,9 +186,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.MoneyTest.testEquality" />
         <item itemvalue="Gradle.MoneyTest" />
         <item itemvalue="Gradle.MoneyTest.testMultiplication" />
+        <item itemvalue="Gradle.MoneyTest.testEquality" />
         <item itemvalue="Gradle./Users/i/ghq/github.com/ita-jp/tdd-by-example-202212/wycash/build.gradle (1)" />
         <item itemvalue="Gradle./Users/i/ghq/github.com/ita-jp/tdd-by-example-202212/wycash/build.gradle" />
       </list>
@@ -203,7 +203,7 @@
       <option name="presentableId" value="Default" />
       <updated>1671109035228</updated>
       <workItem from="1671109036483" duration="814000" />
-      <workItem from="1671109868471" duration="1916000" />
+      <workItem from="1671109868471" duration="2405000" />
     </task>
     <task id="LOCAL-00001" summary="create module by intellij">
       <created>1671110000853</created>
@@ -254,7 +254,14 @@
       <option name="project" value="LOCAL" />
       <updated>1671111608230</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="第3章 三角測量">
+      <created>1671112008287</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1671112008287</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -265,6 +272,7 @@
     <MESSAGE value="add assertj" />
     <MESSAGE value="第1章 仮実装" />
     <MESSAGE value="第2章 明白な実装" />
-    <option name="LAST_COMMIT_MESSAGE" value="第2章 明白な実装" />
+    <MESSAGE value="第3章 三角測量" />
+    <option name="LAST_COMMIT_MESSAGE" value="第3章 三角測量" />
   </component>
 </project>
