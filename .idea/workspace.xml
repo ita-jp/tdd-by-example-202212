@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cb328ade-abf2-4797-8021-df2011d26478" name="Changes" comment="第10章 不要になったら消す">
-      <change afterPath="$PROJECT_DIR$/wycash/src/main/java/money/Expression.java" afterDir="false" />
+    <list default="true" id="cb328ade-abf2-4797-8021-df2011d26478" name="Changes" comment="第12章 設計のメタファー">
+      <change afterPath="$PROJECT_DIR$/wycash/src/main/java/money/Sum.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wycash/doc/TODO.md" beforeDir="false" afterPath="$PROJECT_DIR$/wycash/doc/TODO.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wycash/src/main/java/money/Bank.java" beforeDir="false" afterPath="$PROJECT_DIR$/wycash/src/main/java/money/Bank.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wycash/src/main/java/money/Expression.java" beforeDir="false" afterPath="$PROJECT_DIR$/wycash/src/main/java/money/Expression.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wycash/src/main/java/money/Money.java" beforeDir="false" afterPath="$PROJECT_DIR$/wycash/src/main/java/money/Money.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wycash/src/test/java/money/MoneyTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/wycash/src/test/java/money/MoneyTest.java" afterDir="false" />
     </list>
@@ -27,6 +29,9 @@
     <system id="GRADLE">
       <state>
         <task path="$PROJECT_DIR$/wycash/build.gradle">
+          <activation />
+        </task>
+        <task path="$PROJECT_DIR$/wycash">
           <activation />
         </task>
         <projects_view>
@@ -60,22 +65,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "jdk.selected.JAVA_MODULE": "17",
-    "last_directory_selection": "/Users/i/ghq/github.com/ita-jp/tdd-by-example-202212/wycash/src/main/java",
-    "last_opened_file_path": "/Users/i/ghq/github.com/ita-jp/tdd-by-example-202212",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;17&quot;,
+    &quot;last_directory_selection&quot;: &quot;/Users/i/ghq/github.com/ita-jp/tdd-by-example-202212/wycash/src/main/java&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/i/ghq/github.com/ita-jp/tdd-by-example-202212&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="money" />
@@ -84,7 +89,7 @@
       <recent name="money" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.MoneyTest.testSimpleAddition">
+  <component name="RunManager" selected="Gradle.MoneyTest">
     <configuration name="MoneyTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -108,7 +113,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="MoneyTest.testDifferentClassEquality" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="MoneyTest.testPlusReturnSum" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$/wycash" />
@@ -121,7 +126,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;money.MoneyTest.testDifferentClassEquality&quot;" />
+            <option value="&quot;money.MoneyTest.testPlusReturnSum&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -131,7 +136,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="MoneyTest.testEquality" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="MoneyTest.testReduceMoney" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$/wycash" />
@@ -144,7 +149,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;money.MoneyTest.testEquality&quot;" />
+            <option value="&quot;money.MoneyTest.testReduceMoney&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -154,7 +159,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="MoneyTest.testMultiplication" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="MoneyTest.testReduceSum" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$/wycash" />
@@ -167,7 +172,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;money.MoneyTest.testMultiplication&quot;" />
+            <option value="&quot;money.MoneyTest.testReduceSum&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -202,11 +207,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.MoneyTest.testSimpleAddition" />
         <item itemvalue="Gradle.MoneyTest" />
-        <item itemvalue="Gradle.MoneyTest.testDifferentClassEquality" />
-        <item itemvalue="Gradle.MoneyTest.testEquality" />
-        <item itemvalue="Gradle.MoneyTest.testMultiplication" />
+        <item itemvalue="Gradle.MoneyTest.testSimpleAddition" />
+        <item itemvalue="Gradle.MoneyTest.testReduceMoney" />
+        <item itemvalue="Gradle.MoneyTest.testReduceSum" />
+        <item itemvalue="Gradle.MoneyTest.testPlusReturnSum" />
       </list>
     </recent_temporary>
   </component>
@@ -219,7 +224,7 @@
       <option name="presentableId" value="Default" />
       <updated>1671109035228</updated>
       <workItem from="1671109036483" duration="814000" />
-      <workItem from="1671109868471" duration="6469000" />
+      <workItem from="1671109868471" duration="7861000" />
     </task>
     <task id="LOCAL-00001" summary="create module by intellij">
       <created>1671110000853</created>
@@ -333,11 +338,29 @@
       <option name="project" value="LOCAL" />
       <updated>1671115536205</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="第12章 設計のメタファー">
+      <created>1671116392802</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1671116392802</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="create module by intellij" />
@@ -350,9 +373,10 @@
     <MESSAGE value="第6章 テスト不足に気づいたら" />
     <MESSAGE value="第7章 疑念をテストに翻訳する" />
     <MESSAGE value="第8章 実装を隠す" />
-    <MESSAGE value="第8章 歩幅の調整" />
-    <MESSAGE value="第9章 テストに聞いてみる" />
-    <MESSAGE value="第10章 不要になったら消す" />
-    <option name="LAST_COMMIT_MESSAGE" value="第10章 不要になったら消す" />
+    <MESSAGE value="第9章 歩幅の調整" />
+    <MESSAGE value="第10章 テストに聞いてみる" />
+    <MESSAGE value="第11章 不要になったら消す" />
+    <MESSAGE value="第12章 設計のメタファー" />
+    <option name="LAST_COMMIT_MESSAGE" value="第12章 設計のメタファー" />
   </component>
 </project>

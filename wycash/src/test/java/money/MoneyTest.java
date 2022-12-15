@@ -31,10 +31,32 @@ public class MoneyTest {
     public void testSimpleAddition() {
         var five = Money.dollar(5);
         var sum = five.plus(five);
-        assertThat(sum).isEqualTo(Money.dollar(10));
-
         var bank = new Bank();
         var reduced = bank.reduce(sum, "USD");
         assertThat(reduced).isEqualTo(Money.dollar(10));
+    }
+
+    @Test
+    public void testPlusReturnSum() {
+        var five = Money.dollar(5);
+        var result = five.plus(five);
+        var sum = (Sum) result;
+        assertThat(sum.augend).isEqualTo(five);
+        assertThat(sum.addend).isEqualTo(five);
+    }
+
+    @Test
+    public void testReduceSum() {
+        var sum = new Sum(Money.dollar(3), Money.dollar(4));
+        var bank = new Bank();
+        var result = bank.reduce(sum, "USD");
+        assertThat(result).isEqualTo(Money.dollar(7));
+    }
+
+    @Test
+    public void testReduceMoney() {
+        var bank = new Bank();
+        var result = bank.reduce(Money.dollar(1), "USD");
+        assertThat(result).isEqualTo(Money.dollar(1));
     }
 }
