@@ -4,12 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cb328ade-abf2-4797-8021-df2011d26478" name="Changes" comment="第12章 設計のメタファー">
-      <change afterPath="$PROJECT_DIR$/wycash/src/main/java/money/Sum.java" afterDir="false" />
+    <list default="true" id="cb328ade-abf2-4797-8021-df2011d26478" name="Changes" comment="第13章 実装を導くテスト">
+      <change afterPath="$PROJECT_DIR$/wycash/src/main/java/money/Pair.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wycash/doc/TODO.md" beforeDir="false" afterPath="$PROJECT_DIR$/wycash/doc/TODO.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wycash/src/main/java/money/Bank.java" beforeDir="false" afterPath="$PROJECT_DIR$/wycash/src/main/java/money/Bank.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wycash/src/main/java/money/Expression.java" beforeDir="false" afterPath="$PROJECT_DIR$/wycash/src/main/java/money/Expression.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wycash/src/main/java/money/Money.java" beforeDir="false" afterPath="$PROJECT_DIR$/wycash/src/main/java/money/Money.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wycash/src/main/java/money/Sum.java" beforeDir="false" afterPath="$PROJECT_DIR$/wycash/src/main/java/money/Sum.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wycash/src/test/java/money/MoneyTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/wycash/src/test/java/money/MoneyTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -113,7 +114,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="MoneyTest.testPlusReturnSum" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="MoneyTest.testArrayEquals" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$/wycash" />
@@ -126,7 +127,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;money.MoneyTest.testPlusReturnSum&quot;" />
+            <option value="&quot;money.MoneyTest.testArrayEquals&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -136,7 +137,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="MoneyTest.testReduceMoney" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="MoneyTest.testIdentityRate" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$/wycash" />
@@ -149,7 +150,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;money.MoneyTest.testReduceMoney&quot;" />
+            <option value="&quot;money.MoneyTest.testIdentityRate&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -159,7 +160,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="MoneyTest.testReduceSum" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="MoneyTest.testReduceMoneyDifferentCurrency" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$/wycash" />
@@ -172,7 +173,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;money.MoneyTest.testReduceSum&quot;" />
+            <option value="&quot;money.MoneyTest.testReduceMoneyDifferentCurrency&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -208,10 +209,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Gradle.MoneyTest" />
+        <item itemvalue="Gradle.MoneyTest.testIdentityRate" />
+        <item itemvalue="Gradle.MoneyTest.testArrayEquals" />
+        <item itemvalue="Gradle.MoneyTest.testReduceMoneyDifferentCurrency" />
         <item itemvalue="Gradle.MoneyTest.testSimpleAddition" />
-        <item itemvalue="Gradle.MoneyTest.testReduceMoney" />
-        <item itemvalue="Gradle.MoneyTest.testReduceSum" />
-        <item itemvalue="Gradle.MoneyTest.testPlusReturnSum" />
       </list>
     </recent_temporary>
   </component>
@@ -224,7 +225,7 @@
       <option name="presentableId" value="Default" />
       <updated>1671109035228</updated>
       <workItem from="1671109036483" duration="814000" />
-      <workItem from="1671109868471" duration="7861000" />
+      <workItem from="1671109868471" duration="8970000" />
     </task>
     <task id="LOCAL-00001" summary="create module by intellij">
       <created>1671110000853</created>
@@ -345,7 +346,14 @@
       <option name="project" value="LOCAL" />
       <updated>1671116392802</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="第13章 実装を導くテスト">
+      <created>1671117756634</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1671117756634</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -377,6 +385,7 @@
     <MESSAGE value="第10章 テストに聞いてみる" />
     <MESSAGE value="第11章 不要になったら消す" />
     <MESSAGE value="第12章 設計のメタファー" />
-    <option name="LAST_COMMIT_MESSAGE" value="第12章 設計のメタファー" />
+    <MESSAGE value="第13章 実装を導くテスト" />
+    <option name="LAST_COMMIT_MESSAGE" value="第13章 実装を導くテスト" />
   </component>
 </project>

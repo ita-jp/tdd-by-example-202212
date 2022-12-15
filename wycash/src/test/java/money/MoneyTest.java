@@ -3,6 +3,7 @@ package money;
 import org.junit.jupiter.api.Test;
 
 import static org.assertj.core.api.Assertions.assertThat;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
 
 public class MoneyTest {
@@ -58,5 +59,18 @@ public class MoneyTest {
         var bank = new Bank();
         var result = bank.reduce(Money.dollar(1), "USD");
         assertThat(result).isEqualTo(Money.dollar(1));
+    }
+
+    @Test
+    public void testReduceMoneyDifferentCurrency() {
+        var bank = new Bank();
+        bank.addRate("CHF", "USD", 2);
+        var result = bank.reduce(Money.franc(2), "USD");
+        assertThat(result).isEqualTo(Money.dollar(1));
+    }
+
+    @Test
+    public void testIdentityRate() {
+        assertThat(new Bank().rate("USD", "USD")).isEqualTo(1);
     }
 }
