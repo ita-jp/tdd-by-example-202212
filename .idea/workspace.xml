@@ -4,12 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cb328ade-abf2-4797-8021-df2011d26478" name="Changes" comment="add assertj">
-      <change afterPath="$PROJECT_DIR$/wycash/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wycash/doc/TODO.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wycash/src/main/java/money/Dollar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wycash/src/test/java/money/MoneyTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="cb328ade-abf2-4797-8021-df2011d26478" name="Changes" comment="第1章 仮実装">
+      <change beforePath="$PROJECT_DIR$/wycash/src/main/java/money/Dollar.java" beforeDir="false" afterPath="$PROJECT_DIR$/wycash/src/main/java/money/Dollar.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wycash/src/test/java/money/MoneyTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/wycash/src/test/java/money/MoneyTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -201,7 +198,7 @@
       <option name="presentableId" value="Default" />
       <updated>1671109035228</updated>
       <workItem from="1671109036483" duration="814000" />
-      <workItem from="1671109868471" duration="1210000" />
+      <workItem from="1671109868471" duration="1606000" />
     </task>
     <task id="LOCAL-00001" summary="create module by intellij">
       <created>1671110000853</created>
@@ -231,7 +228,14 @@
       <option name="project" value="LOCAL" />
       <updated>1671110049321</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="第1章 仮実装">
+      <created>1671111113817</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1671111113817</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -240,6 +244,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="create module by intellij" />
     <MESSAGE value="add assertj" />
-    <option name="LAST_COMMIT_MESSAGE" value="add assertj" />
+    <MESSAGE value="第1章 仮実装" />
+    <option name="LAST_COMMIT_MESSAGE" value="第1章 仮実装" />
   </component>
 </project>
