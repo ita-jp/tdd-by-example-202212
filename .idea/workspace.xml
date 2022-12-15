@@ -4,8 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cb328ade-abf2-4797-8021-df2011d26478" name="Changes" comment="create module by intellij">
-      <change beforePath="$PROJECT_DIR$/wycash/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/wycash/build.gradle" afterDir="false" />
+    <list default="true" id="cb328ade-abf2-4797-8021-df2011d26478" name="Changes" comment="add assertj">
+      <change afterPath="$PROJECT_DIR$/wycash/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wycash/doc/TODO.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wycash/src/main/java/money/Dollar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wycash/src/test/java/money/MoneyTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,22 +57,74 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;17&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/i/ghq/github.com/ita-jp/tdd-by-example-202212&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "jdk.selected.JAVA_MODULE": "17",
+    "last_directory_selection": "/Users/i/ghq/github.com/ita-jp/tdd-by-example-202212/wycash/src/main/java",
+    "last_opened_file_path": "/Users/i/ghq/github.com/ita-jp/tdd-by-example-202212",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
-  <component name="RunManager" selected="Gradle./Users/i/ghq/github.com/ita-jp/tdd-by-example-202212/wycash/build.gradle (1)">
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="money" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Gradle.MoneyTest.testMultiplication">
+    <configuration name="MoneyTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/wycash" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;money.MoneyTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="MoneyTest.testMultiplication" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/wycash" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;money.MoneyTest.testMultiplication&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
     <configuration name="/Users/i/ghq/github.com/ita-jp/tdd-by-example-202212/wycash/build.gradle (1)" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -128,6 +184,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.MoneyTest.testMultiplication" />
+        <item itemvalue="Gradle.MoneyTest" />
         <item itemvalue="Gradle./Users/i/ghq/github.com/ita-jp/tdd-by-example-202212/wycash/build.gradle (1)" />
         <item itemvalue="Gradle./Users/i/ghq/github.com/ita-jp/tdd-by-example-202212/wycash/build.gradle" />
         <item itemvalue="Gradle.wycach" />
@@ -143,7 +201,7 @@
       <option name="presentableId" value="Default" />
       <updated>1671109035228</updated>
       <workItem from="1671109036483" duration="814000" />
-      <workItem from="1671109868471" duration="156000" />
+      <workItem from="1671109868471" duration="1210000" />
     </task>
     <task id="LOCAL-00001" summary="create module by intellij">
       <created>1671110000853</created>
@@ -159,7 +217,21 @@
       <option name="project" value="LOCAL" />
       <updated>1671110006963</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="create module by intellij">
+      <created>1671110038065</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1671110038065</updated>
+    </task>
+    <task id="LOCAL-00004" summary="add assertj">
+      <created>1671110049321</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1671110049321</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -167,6 +239,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="create module by intellij" />
-    <option name="LAST_COMMIT_MESSAGE" value="create module by intellij" />
+    <MESSAGE value="add assertj" />
+    <option name="LAST_COMMIT_MESSAGE" value="add assertj" />
   </component>
 </project>
