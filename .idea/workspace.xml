@@ -4,11 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cb328ade-abf2-4797-8021-df2011d26478" name="Changes" comment="第5章 原則をあえて破るとき">
-      <change afterPath="$PROJECT_DIR$/wycash/src/main/java/money/Money.java" afterDir="false" />
+    <list default="true" id="cb328ade-abf2-4797-8021-df2011d26478" name="Changes" comment="第7章 疑念をテストに翻訳する">
       <change beforePath="$PROJECT_DIR$/wycash/doc/TODO.md" beforeDir="false" afterPath="$PROJECT_DIR$/wycash/doc/TODO.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wycash/src/main/java/money/Dollar.java" beforeDir="false" afterPath="$PROJECT_DIR$/wycash/src/main/java/money/Dollar.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wycash/src/main/java/money/Franc.java" beforeDir="false" afterPath="$PROJECT_DIR$/wycash/src/main/java/money/Franc.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wycash/src/main/java/money/Money.java" beforeDir="false" afterPath="$PROJECT_DIR$/wycash/src/main/java/money/Money.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wycash/src/test/java/money/MoneyTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/wycash/src/test/java/money/MoneyTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -208,7 +208,7 @@
       <option name="presentableId" value="Default" />
       <updated>1671109035228</updated>
       <workItem from="1671109036483" duration="814000" />
-      <workItem from="1671109868471" duration="3173000" />
+      <workItem from="1671109868471" duration="4049000" />
     </task>
     <task id="LOCAL-00001" summary="create module by intellij">
       <created>1671110000853</created>
@@ -280,7 +280,21 @@
       <option name="project" value="LOCAL" />
       <updated>1671112601524</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="第6章 テスト不足に気づいたら">
+      <created>1671113078528</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1671113078528</updated>
+    </task>
+    <task id="LOCAL-00012" summary="第7章 疑念をテストに翻訳する">
+      <created>1671113309398</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1671113309398</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -294,6 +308,8 @@
     <MESSAGE value="第3章 三角測量" />
     <MESSAGE value="第4章 意図を語るテスト" />
     <MESSAGE value="第5章 原則をあえて破るとき" />
-    <option name="LAST_COMMIT_MESSAGE" value="第5章 原則をあえて破るとき" />
+    <MESSAGE value="第6章 テスト不足に気づいたら" />
+    <MESSAGE value="第7章 疑念をテストに翻訳する" />
+    <option name="LAST_COMMIT_MESSAGE" value="第7章 疑念をテストに翻訳する" />
   </component>
 </project>

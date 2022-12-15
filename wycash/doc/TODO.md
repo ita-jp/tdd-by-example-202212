@@ -17,3 +17,4 @@
 - [ ] 通貨の概念
     - `getClass().equals(money.getClass())` をやめたい
     - プログラム的比較ではななく、ドメイン的な比較をしたい。currency?
+- [ ] testFrancMultiplication を削除する?

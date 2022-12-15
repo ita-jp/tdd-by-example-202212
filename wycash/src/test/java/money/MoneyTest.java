@@ -9,24 +9,24 @@ public class MoneyTest {
 
     @Test
     public void testMultiplication() {
-        var five = new Dollar(5);
-        assertThat(five.times(2)).isEqualTo(new Dollar(10));
-        assertThat(five.times(3)).isEqualTo(new Dollar(15));
+        var five = Money.dollar(5);
+        assertThat(five.times(2)).isEqualTo(Money.dollar(10));
+        assertThat(five.times(3)).isEqualTo(Money.dollar(15));
     }
 
     @Test
     public void testEquality() {
-        assertThat(new Dollar(5)).isEqualTo(new Dollar(5));
-        assertThat(new Dollar(5)).isNotEqualTo(new Dollar(6));
-        assertThat(new Franc(5)).isEqualTo(new Franc(5));
-        assertThat(new Franc(5)).isNotEqualTo(new Franc(6));
-        assertThat(new Franc(5)).isNotEqualTo(new Dollar(5));
+        assertThat(Money.dollar(5)).isEqualTo(Money.dollar(5));
+        assertThat(Money.dollar(5)).isNotEqualTo(Money.dollar(6));
+        assertThat(Money.franc(5)).isEqualTo(Money.franc(5));
+        assertThat(Money.franc(5)).isNotEqualTo(Money.franc(6));
+        assertThat(Money.franc(5)).isNotEqualTo(Money.dollar(5));
     }
 
     @Test
     public void testFrancMultiplication() {
-        var five = new Franc(5);
-        assertThat(five.times(2)).isEqualTo(new Franc(10));
-        assertThat(five.times(3)).isEqualTo(new Franc(15));
+        var five = Money.franc(5);
+        assertThat(five.times(2)).isEqualTo(Money.franc(10));
+        assertThat(five.times(3)).isEqualTo(Money.franc(15));
     }
 }
