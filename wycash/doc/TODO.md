@@ -7,7 +7,7 @@
 - [x] Money を変換して換算を行う
 - [x] Reduce(Bank, String)
 - [x] Sum.plus
-- [ ] Expression.times
+- [x] Expression.times
 - [x] $5 * 2 = 10
 - [x] Dollar.amount を private にする
 - [x] Dollar の副作用どうする？
