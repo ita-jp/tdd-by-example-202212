@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cb328ade-abf2-4797-8021-df2011d26478" name="Changes" comment="第4章 意図を語るテスト">
-      <change afterPath="$PROJECT_DIR$/wycash/src/main/java/money/Franc.java" afterDir="false" />
+    <list default="true" id="cb328ade-abf2-4797-8021-df2011d26478" name="Changes" comment="第5章 原則をあえて破るとき">
+      <change afterPath="$PROJECT_DIR$/wycash/src/main/java/money/Money.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wycash/doc/TODO.md" beforeDir="false" afterPath="$PROJECT_DIR$/wycash/doc/TODO.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wycash/src/main/java/money/Dollar.java" beforeDir="false" afterPath="$PROJECT_DIR$/wycash/src/main/java/money/Dollar.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wycash/src/main/java/money/Franc.java" beforeDir="false" afterPath="$PROJECT_DIR$/wycash/src/main/java/money/Franc.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wycash/src/test/java/money/MoneyTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/wycash/src/test/java/money/MoneyTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -190,8 +192,8 @@
     <recent_temporary>
       <list>
         <item itemvalue="Gradle.MoneyTest" />
-        <item itemvalue="Gradle.MoneyTest.testMultiplication" />
         <item itemvalue="Gradle.MoneyTest.testEquality" />
+        <item itemvalue="Gradle.MoneyTest.testMultiplication" />
         <item itemvalue="Gradle./Users/i/ghq/github.com/ita-jp/tdd-by-example-202212/wycash/build.gradle (1)" />
         <item itemvalue="Gradle./Users/i/ghq/github.com/ita-jp/tdd-by-example-202212/wycash/build.gradle" />
       </list>
@@ -206,7 +208,7 @@
       <option name="presentableId" value="Default" />
       <updated>1671109035228</updated>
       <workItem from="1671109036483" duration="814000" />
-      <workItem from="1671109868471" duration="2714000" />
+      <workItem from="1671109868471" duration="3173000" />
     </task>
     <task id="LOCAL-00001" summary="create module by intellij">
       <created>1671110000853</created>
@@ -271,7 +273,14 @@
       <option name="project" value="LOCAL" />
       <updated>1671112292825</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="第5章 原則をあえて破るとき">
+      <created>1671112601524</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1671112601524</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -284,6 +293,7 @@
     <MESSAGE value="第2章 明白な実装" />
     <MESSAGE value="第3章 三角測量" />
     <MESSAGE value="第4章 意図を語るテスト" />
-    <option name="LAST_COMMIT_MESSAGE" value="第4章 意図を語るテスト" />
+    <MESSAGE value="第5章 原則をあえて破るとき" />
+    <option name="LAST_COMMIT_MESSAGE" value="第5章 原則をあえて破るとき" />
   </component>
 </project>
