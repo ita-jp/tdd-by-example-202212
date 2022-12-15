@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cb328ade-abf2-4797-8021-df2011d26478" name="Changes" comment="第7章 疑念をテストに翻訳する">
+    <list default="true" id="cb328ade-abf2-4797-8021-df2011d26478" name="Changes" comment="第8章 実装を隠す">
       <change beforePath="$PROJECT_DIR$/wycash/doc/TODO.md" beforeDir="false" afterPath="$PROJECT_DIR$/wycash/doc/TODO.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wycash/src/main/java/money/Dollar.java" beforeDir="false" afterPath="$PROJECT_DIR$/wycash/src/main/java/money/Dollar.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wycash/src/main/java/money/Franc.java" beforeDir="false" afterPath="$PROJECT_DIR$/wycash/src/main/java/money/Franc.java" afterDir="false" />
@@ -208,7 +208,7 @@
       <option name="presentableId" value="Default" />
       <updated>1671109035228</updated>
       <workItem from="1671109036483" duration="814000" />
-      <workItem from="1671109868471" duration="4049000" />
+      <workItem from="1671109868471" duration="4868000" />
     </task>
     <task id="LOCAL-00001" summary="create module by intellij">
       <created>1671110000853</created>
@@ -294,7 +294,14 @@
       <option name="project" value="LOCAL" />
       <updated>1671113309398</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="第8章 実装を隠す">
+      <created>1671113939812</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1671113939812</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -310,6 +317,7 @@
     <MESSAGE value="第5章 原則をあえて破るとき" />
     <MESSAGE value="第6章 テスト不足に気づいたら" />
     <MESSAGE value="第7章 疑念をテストに翻訳する" />
-    <option name="LAST_COMMIT_MESSAGE" value="第7章 疑念をテストに翻訳する" />
+    <MESSAGE value="第8章 実装を隠す" />
+    <option name="LAST_COMMIT_MESSAGE" value="第8章 実装を隠す" />
   </component>
 </project>
