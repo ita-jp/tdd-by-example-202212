@@ -27,4 +27,14 @@ public class MoneyTest {
         assertThat(Money.franc(1).currency()).isEqualTo("CHF");
     }
 
+    @Test
+    public void testSimpleAddition() {
+        var five = Money.dollar(5);
+        var sum = five.plus(five);
+        assertThat(sum).isEqualTo(Money.dollar(10));
+
+        var bank = new Bank();
+        var reduced = bank.reduce(sum, "USD");
+        assertThat(reduced).isEqualTo(Money.dollar(10));
+    }
 }
